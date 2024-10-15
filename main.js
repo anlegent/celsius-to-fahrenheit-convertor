@@ -2,8 +2,6 @@
 let celciusPrompt = prompt("please input a value in celsius");
 
 let convert = 32 + (9 / 5) * celciusPrompt;
-
-console.log(celciusPrompt);
 console.log(convert);
 
 // 2
@@ -36,14 +34,12 @@ if (nationality1 == "French") {
 }
 
 // 5
-
 let age = prompt("age");
+
 if (age <= 3) {
   console.log("gratuit");
 } else if (age <= 15) {
   console.log("reduit");
 } else if (age <= 25) {
   console.log("plein tarif");
-} else {
-  console.log("please input a correct age");
 }
